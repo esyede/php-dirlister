@@ -1,0 +1,22 @@
+{
+    "name": "esyede/php-dirlister",
+    "type": "project",
+    "description": "Simple directory lister in PHP (Single file, no dependencies)",
+    "keywords": [
+        "php",
+        "directory-lister",
+        "directory-listing"
+    ],
+    "homepage": "https://github.com/esyede/php-dirlister",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Suyadi",
+            "email": "suyadi.1992@gmail.com",
+            "homepage": "https://esyede.my.id"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    }
+}

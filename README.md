@@ -1,8 +1,8 @@
 # tiny-qrcode
 
-![screenshot](https://user-images.githubusercontent.com/10582583/273416139-fa4133da-508b-48ac-9bc5-e60956371e80.png)
+Simple directory lister in PHP (Single file, no dependencies)
 
-Simple directory lister in PHP
+![screenshot](https://user-images.githubusercontent.com/10582583/273416139-fa4133da-508b-48ac-9bc5-e60956371e80.png)
 
 
 ## Requirements:
@@ -26,7 +26,7 @@ You can modify the default configuration inside the `index.php` file:
 | CONFIGURATION
 |--------------------------------------------------------------------------
 |
-| Modify this to suits your need.
+| Modify this to suits your
 |
 */
 
