@@ -1,4 +1,4 @@
-# tiny-qrcode
+# php-dirlister
 
 Simple directory lister in PHP (Single file, no dependencies)
 
@@ -59,4 +59,4 @@ $config = array(
 
 ## License
 
-Released under the [MIT License](https://github.com/esyede/tiny-qrcode/LICENSE)
+Released under the [MIT License](https://github.com/esyede/php-dirlister/LICENSE)
