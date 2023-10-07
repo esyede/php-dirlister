@@ -5,4 +5,4 @@ use PhpCsFixer\Config;
 return Config::create()
     ->setRiskyAllowed(true)
     ->setUsingCache(false)
-    ->setFinder(Finder::create()->in(__DIR__);
+    ->setFinder(Finder::create()->in(__DIR__));
