@@ -1,0 +1,38 @@
+# Phpstorm
+.idea
+*.iml
+
+# Netbeans
+nbproject
+
+# Zend studio eclipse
+.buildpath
+.project
+.settings
+
+# Sublime text
+*.sublime-project
+*.sublime-workspace
+/.phpintel
+
+# Vscode
+.vscode
+
+# Cache thumbnail windows
+Thumbs.db
+
+# Composer
+composer.phar
+composer.lock
+/vendor
+
+# Mac
+.DS_Store
+
+# Phpunit
+phpunit.phar
+phpunit.xml
+.phpunit.result.cache
+
+# Others
+*.phar
