@@ -33,6 +33,7 @@ composer.lock
 phpunit.phar
 phpunit.xml
 .phpunit.result.cache
+.php_cs.dist
 
 # Others
 *.phar

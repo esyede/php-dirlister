@@ -1,0 +1,8 @@
+<?php
+use PhpCsFixer\Finder;
+use PhpCsFixer\Config;
+
+return Config::create()
+    ->setRiskyAllowed(true)
+    ->setUsingCache(false)
+    ->setFinder(Finder::create()->in(__DIR__);
