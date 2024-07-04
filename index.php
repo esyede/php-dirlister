@@ -300,7 +300,7 @@ if ($pdl->getConfig('show_parent') && $pdl->getPath() !== '/' && empty($pdl->get
     <meta charset="UTF-8">
     <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $pdl->generateTitle() ?></title>
+    <title><?php echo strip_tags($pdl->generateTitle()) ?></title>
     <style type="text/css">
         * {
             margin: 0;
