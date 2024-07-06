@@ -176,17 +176,12 @@ class PHPDirLister
 
     public function sortByName($a, $b)
     {
-        return (
-            ($a['is_dir'] === $b['is_dir'])
-            || ($this->config['directory_first']) ? ($a['is_dir'] < $b['is_dir']) : (strtolower($a['name']) > strtolower($b['name']))
-        ) ? 1 : -1;
+        return (($a['is_dir'] === $b['is_dir'] || !$this->config['directory_first']) ? (strtolower($a['name']) > strtolower($b['name'])) : ($a['is_dir'] < $b['is_dir'])) ? 1 : -1;
     }
 
     public function sortBySize($a, $b)
     {
-        return (
-            ($a['is_dir'] === $b['is_dir']) ? ($a['size'] > $b['size']) : ($a['is_dir'] < $b['is_dir'])
-        ) ? 1 : -1;
+        return (($a['is_dir'] === $b['is_dir']) ? ($a['size'] > $b['size']) : ($a['is_dir'] < $b['is_dir'])) ? 1 : -1;
     }
 
     public function sortByTime($a, $b)
