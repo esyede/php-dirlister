@@ -512,7 +512,7 @@ if ($pdl->getConfig('show_parent') && $pdl->getPath() !== '/' && empty($pdl->get
                 Icons by <a href="https://github.com/markjames/famfamfam-silk-icons" target="_blank">FamFamFam (Mark James)</a>
             </p>
         <?php endif; ?>
-    </div>=
+    </div>
 </body>
 
 </html>
